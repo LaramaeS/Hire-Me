@@ -1,0 +1,92 @@
+h1{
+    color: #2d79ef;
+    font-family: 'Charmonman', cursive;
+    border-style: dotted;
+    background-color: #79aaf7;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    color: #5093fc;
+}
+
+li{
+    color: #5093fc;
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background-color: #c9d7ed;
+    border-style: inset;
+    text-align: center;
+    opacity:0.9;
+    background-image: url("https://images.8tracks.com/cover/i/010/297/885/overwatch_wallpaper_hd_by_mrnocilla-d9q4d3z-490.jpg?rect=448,0,1080,1080&q=98&fm=jpg&fit=max");
+    background-attachment:fixed;
+    opacity:0.9;
+    background-size: 25%;
+    border-style: solid;
+    margin: 40px 90px 40px 90px;
+    cursor: url('http://cur.cursors-4u.net/games/images12/gam1191.png'), auto;
+}
+
+img {
+    width:300px;
+    height:400px;
+    border-style: solid;
+    border-radius:600px;
+}
+@keyframes slider {
+    0% {
+	    left: 0;
+    }
+    
+    20% {
+	    left: -60%;
+    }
+    
+    25% {
+	    left: -120%;
+    }
+    
+    45% {
+        left: -180%;
+    }
+
+    50% {
+        left: -240%;
+    }
+    
+    70% {
+    	left: -180%;
+    }
+    
+    75% {
+    	left: -120%;
+    }
+    
+    95% {
+    	left: -60%;
+    }
+    
+    100% {
+    	left: -0%;
+    }
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 10%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 350%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	animation: 15s slider infinite; 
+}
